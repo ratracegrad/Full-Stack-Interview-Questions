@@ -79,19 +79,18 @@
 
   ![JavaScript 16](/images/javascript16.png?raw=true "JavaScript 16")
 
-        
-17.List all the JavaScript data types?
+17. List all the JavaScript data types?
 
 18. Write a multiply function that will produce the following outputs when invoked.
 
   ![JavaScript 18](/images/javascript18.png?raw=true "JavaScript 18")
-        
+
 19. What is strict mode in JavaScript? How do you implement it? Why would you use it?
 
 20. Answer the following questions.
 
   ![JavaScript 20](/images/javascript20.png?raw=true "JavaScript 20")        
-        
+
 21. Your function takes one parameter. How would you verify that the parameter is an array?
 
 22. What is event bubling?
@@ -189,7 +188,7 @@ button
 
   ![CSS 15](/images/css15.png?raw=true "CSS 15")
             
-What would this HTML look like when rendered?
+  What would this HTML look like when rendered?
 
   ![CSS 15b](/images/css15b.png?raw=true "CSS 15b")
             
