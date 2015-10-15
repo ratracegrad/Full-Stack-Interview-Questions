@@ -36,127 +36,61 @@
 
 2. What are the differences between the following expressions:
 
-  x = y;
-
-  x == y;
-
-  x === y;
+  ![JavaScript 2](/images/javascript2.png?raw=true "JavaScript 2")
       
 3. What is hoisting in JavaScript? Provide an example?
 
 4. Is this valid JavaScript? Why or why not?
 
-  var x = multiply(2)(3);
+  ![JavaScript 4](/images/javascript4.png?raw=true "JavaScript 4")
       
 5. What is 'this' keyword in JavaScript?
 
 6. What will be the output to the console for the following?
 
-  function firstHalf() {
-    var qtr1 = "kickoff";
-
-    if (true){
-      var qtr1 = "touchdown";
-      qtr2 = "field goal";
-    }
-
-    console.log(qtr1); 
-    console.log(qtr2); 
-  }
-
-  function  secondHalf() {
-    console.log(qtr1); 
-    console.log(qtr2); 
-  }
-
-  firstHalf();
-  secondHalf();
+  ![JavaScript 6](/images/javascript6.png?raw=true "JavaScript 6")
       
 7. How do you remove a property from an object?
 
 8. What will be the output to the console for the following?
 
-  function countDown() {
-    for (var index = 5; index > 0; index--){
-      setTimeout(function() {
-        console.log('Index: ' + index);
-      }, 5000 );
-    }
-  }
-  countDown();
+  ![JavaScript 8](/images/javascript8.png?raw=true "JavaScript 8")
       
 9. What is the difference between substr and substring? Provide an example showing how to use each.
 
 10. What will be the output to the console for the following?
 
-  function foo() {
-    console.log(this.bar);
-  }
-  var bar = "bar";
-  var biz = { bar: "biz", foo: foo };
-  var bang = { bar: "bang" };
-  foo(); 
-  biz.foo(); 
-  biz.foo.call(); 
-  biz.foo.call(bang);
+  ![JavaScript 10](/images/javascript10.png?raw=true "JavaScript 10")
       
 11. Why would you ever wrap an entire function or source file in a function block?
 
 12. What do the following statements return?
 
-  typeof "Hello World"; 
-  typeof [1, 2, 3].concat();
-  typeof {a:1}; 
-  typeof function test() {}
-  typeof [1, 2, 3]; 
-  typeof null;
-  typeof NaN;
+  ![JavaScript 12](/images/javascript12.png?raw=true "JavaScript 12")
       
 13. What is a "closure" in JavaScript? Provide an example.
 14. What is the output from the following code?
 
-  (function() {
-     foo = 5;
-     var bar = 10;
-  })();
-
-  console.log(foo);
-  console.log(bar);
+  ![JavaScript 14](/images/javascript14.png?raw=true "JavaScript 14")
           
 15. What is the difference between a function declaration and a function expression?
 
 16. What is the output from the following code?
 
-  (function() {
-    var apple = 2;
-    function pie() {
-      var apple = 3;
-    }
-    pie();
-    console.log(apple);
-    if (apple) {
-      var apple = 3;
-    }
-    console.log(apple);
-   })();
+  ![JavaScript 16](/images/javascript16.png?raw=true "JavaScript 16")
 
         
 17.List all the JavaScript data types?
 
 18. Write a multiply function that will produce the following outputs when invoked.
 
-  console.log( multiply(2, 3); // output: 6
-  console.log( multiply(4)(5) ); // output: 20
+  ![JavaScript 18](/images/javascript18.png?raw=true "JavaScript 18")
         
 19. What is strict mode in JavaScript? How do you implement it? Why would you use it?
 
 20. Answer the following questions.
 
-  How do you remove the first item in an array?
-  How do you remove the last item in an array?
-  How do you add a new item to the beginning of an array?
-  How do you add a new item to the end of an array?
-  How do you remove all the entries in an array?        
+  ![JavaScript 20](/images/javascript20.png?raw=true "JavaScript 20")        
         
 21. Your function takes one parameter. How would you verify that the parameter is an array?
 
@@ -168,15 +102,13 @@
 
 2. What does this command do?
 
-  $("p")
+  ![jQuery 2](/images/jquery2.png?raw=true "jQuery 2")
             
 3. How do you deal with cross domain requests?
 
 4. What does the following command do?
 
-  <script type="text/javascript" 
-    src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
-  </script>
+  ![jQuery 4](/images/jquery4.png?raw=true "jQuery 4")
             
 5. Can you list some HTTP verbs?
 
@@ -196,7 +128,7 @@
 
 13. What does the following code do?
 
-  $( "div" ).css( "width", "100px" ).add( "p" ).css( "background-color", "red" );
+  ![jQuery 13](/images/jquery13.png?raw=true "jQuery 13")
             
 14. Can you replace the dollar sign ($) in jQuery with your own chosen character?
 
@@ -222,17 +154,7 @@
 
 3. Write a CSS selector to select only the inner two li's in the markup below:
 
-  <ul class="myList">
-    <li>One</li>
-    <li>Two</li>
-    <li>
-      <ul>
-        <li>Three A</li>
-        <li>Three B</li>
-      </ul>
-    </li>
-    <li>Four</li>
-  </ul>
+  ![CSS 3](/images/css3.png?raw=true "CSS 3")
               
 4. What does the box-model refer to in CSS?
 
@@ -240,17 +162,7 @@
 
 6. Write a CSS selector to select only the first li of the inner two li's in the markup below:
 
-  <ul class="myList">
-    <li>One</li>
-    <li>Two</li>
-    <li>
-      <ul>
-        <li>Three A</li>
-        <li>Three B</li>
-      </ul>
-    </li>
-    <li>Four</li>
-  </ul>
+  ![CSS 6](/images/css6.png?raw=true "CSS 6")
               
 7. Can an HTML element have multiple classes?
 
@@ -261,28 +173,13 @@ button
 
 10. What is the difference between these three selectors?
 
-
-  div {
-    background: red;
-  }
-  .div {
-    background: blue;
-  }
-  #div {
-    background: green;
-  }
+  ![CSS 10](/images/css10.png?raw=true "CSS 10")
             
 11. What are some ways to change the location of an element on a page via CSS?
 
 12. What would a table look like with this css applied?
 
-
-  tr:nth-child(even) {
-    background: red;
-  }
-  col:first-child {
-    background: yellow;
-  }
+  ![CSS 12](/images/css12.png?raw=true "CSS 12")
             
 13. Is there a way to change the box-model?
 
@@ -290,24 +187,11 @@ button
 
 15. Given this CSS:
 
-  div span {
-    color: red;
-  }
-  div > span {
-    background: green;
-  }
+  ![CSS 15](/images/css15.png?raw=true "CSS 15")
             
 What would this HTML look like when rendered?
 
-
-  <div>
-    <p>
-      <span>All work and no play</span>
-    </p>
-  </div>
-  <div>
-    <span>makes Jack a dull boy</span>
-  </div>
+  ![CSS 15b](/images/css15b.png?raw=true "CSS 15b")
             
 16. How do you clear a floated element?
 
@@ -315,24 +199,7 @@ What would this HTML look like when rendered?
 
 18. What will the HTML look like for the following?
 
-  <style>
-  div span {
-      color: red;
-  }
-
-  div > span {
-      background: green;
-  }
-  </style>
-
-  <div>
-      <p>
-          <span>Hello World</span>
-      </p>
-  </div>
-  <div>
-      <span>foo bar</span>
-  </div>
+  ![CSS 18](/images/css18.png?raw=true "CSS 18")
             
 19. What are Sass and LESS? Why would you use them?
 
