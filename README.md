@@ -1,12 +1,17 @@
 # Full-Stack Interview Questions
 
-> Over 70 actual interview questions to help you prepare for your Full-Stack Interview Questions.
+> Over 70 actual interview questions to help you prepare for your Full-Stack Interview Questions. The questions are arranged by topics - General, JavaScript, jQuery and HTML/CSS. 
+
+> Answers to these questions can be found on my [CodePrep website](www.codeprep.io).
+
+> If these get value from these questions, please star my repo! Thanks!
 
 ## Table of Contents
 1. [General Questions]('#general questions')
 1. [JavaScript Questions]('#javascript questions')
 1. [jQuery Questions]('#jquery questions')
 2. [HTML/CSS Questions]('#html/css questions')
+3. [Answers]('#answers')
 1. [Author](#author)
 1. [Contributing](#contributing)
 
@@ -206,6 +211,9 @@ button
 
 21. What is the difference between inline, inline-block and block?
 
+
+## Answers
+You can get the answers to all of these questions on my [CodePrep](www.codeprep.io) website.  Also on the website I have 30 more questions in a quiz that you can take online.
 
 ## Author
 
