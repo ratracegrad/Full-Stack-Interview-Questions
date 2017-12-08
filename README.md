@@ -2,7 +2,7 @@
 
 > Over 70 actual interview questions to help you prepare for your Full-Stack Interview Questions. The questions are arranged by topics - General, JavaScript, jQuery and HTML/CSS. 
 
-> Answers to these questions can be found on my [CodePrep website](www.codeprep.io).
+> Answers to these questions can be found on my [CodePrep website](http://www.codeprep.io).
 
 > If these get value from these questions, please star my repo! Thanks!
 
@@ -213,7 +213,7 @@ button
 
 
 ## Answers
-You can get the answers to all of these questions on my [CodePrep](www.codeprep.io) website.  Also on the website I have 30 more questions in a quiz that you can take online.
+You can get the answers to all of these questions on my [CodePrep](http://www.codeprep.io) website.  Also on the website I have 30 more questions in a quiz that you can take online.
 
 ## Author
 
